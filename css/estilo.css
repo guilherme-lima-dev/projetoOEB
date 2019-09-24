@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-image:url("../img/fundo-oeb.jpg");
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  z-index:11;
+}
+/* .livro1{
+  width: 90px;
+  height: 80px;
+  position: absolute;
+  bottom:280px;
+  left: 500px;
+} */
+.livro2{
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  bottom:280px;
+  left: 500px;
+  transform: rotateZ(30deg);
+}
+.livro3{
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  bottom:280px;
+  left: 800px;
+}
+.livro4{
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  bottom:300px;
+  left: 900px;
+}
+.livro5{
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  bottom:320px;
+  left: 700px;
+}
+.livro6{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom:265px;
+  left: 650px;
+}
+.livro7{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom:370px;
+  left: 600px;
+}
+.livro8{
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  bottom:300px;
+  left: 420px;
+}
+.livro9{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom:360px;
+  left: 530px;
+}
+.livro10{
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  bottom:300px;
+  left: 580px;
+}
+.esconde{
+  opacity: 0;
+  transition-duration: 1s;
+}
+.img{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 50px;
+  left: 90px;
+}
+.mouse{
+  cursor: url("../img/livro-mouse.png"), default;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.caixa-img{
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+.caixa-img img{
+  width:100%;
+  height: 100%;
+}
+/* .livro1click{
+  transform: scale(4) rotateZ(-45deg);
+  position: absolute;
+  left: 1100px;
+} */
+.livro3click{
+  position: absolute;
+  transform: scale(4) rotateZ(-45deg);
+  left: 1080px;
+  transition-duration: 1s;
+}
+.livro4click{
+  position: absolute;
+  transform: scale(4) rotateZ(30deg);
+  left: 1080px;
+  transition-duration: 1s;
+}
+.livro5click{
+  position: absolute;
+  transform: scale(4) rotateZ(40deg);
+  left: 1080px;
+  transition-duration: 1s;
+}
+.livro6click{
+  position: absolute;
+  transform: scale(5) rotateZ(-20deg);
+  left: 1080px;
+  transition-duration: 1s;
+}
+.livro7click{
+  position: absolute;
+  transform: scale(4);
+  left: 1080px;
+  transition-duration: 1s;
+}
+.livro9click{
+  position: absolute;
+  transform: scale(5);
+  left: 1080px;
+  transition-duration: 1s;
+}
+.livro10click{
+  position: absolute;
+  transform: scale(4) rotateZ(-30deg);
+  left: 1080px;
+  transition-duration: 1s; 
+}
